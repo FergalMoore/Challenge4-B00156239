@@ -318,13 +318,7 @@
         310,
         311,
         312,
-        313,
-        314,
-        315,
-        316,
-        317,
-        318,
-        319
+        313
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -13549,116 +13543,34 @@
       "DebugActionIndex": 291
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "DisplayName": "7z build.framework.js",
-      "Action": "cd \"C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Challenge4-B00156239/Challenge 4/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/7z.exe\" a -tgzip \"C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Challenge4-B00156239/Challenge 4/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"build.framework.js\"",
+      "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.framework.js",
+      "DisplayName": "Copying Challenge 4.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.framework.js"
       ],
       "ToBuildDependencies": [
         291
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
       "DebugActionIndex": 292
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Challenge 4.framework.js.gz_kc26.info",
-      "DisplayName": "Writing Challenge 4.framework.js.gz_kc26.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 167362,
-      "PayloadLength": 509,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/Challenge 4.framework.js.gz_kc26.info"
-      ],
-      "DebugActionIndex": 293
-    },
-    {
-      "Annotation": "GzipMarker C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.framework.js.gz",
-      "DisplayName": "GzipMarker Challenge 4.framework.js",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Challenge 4.framework.js.gz_kc26.info\"",
+      "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.wasm",
+      "DisplayName": "Copying Challenge 4.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/Challenge 4.framework.js.gz_kc26.info",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
+        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.framework.js.gz"
-      ],
-      "ToBuildDependencies": [
-        292,
-        293
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 294
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "DisplayName": "7z build.wasm",
-      "Action": "cd \"C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Challenge4-B00156239/Challenge 4/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/7z.exe\" a -tgzip \"C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Challenge4-B00156239/Challenge 4/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"build.wasm\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/7z.exe"
-      ],
-      "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.wasm"
       ],
       "ToBuildDependencies": [
         289
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 295
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Challenge 4.wasm.gz_tnfx.info",
-      "DisplayName": "Writing Challenge 4.wasm.gz_tnfx.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 167968,
-      "PayloadLength": 493,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/Challenge 4.wasm.gz_tnfx.info"
-      ],
-      "DebugActionIndex": 296
-    },
-    {
-      "Annotation": "GzipMarker C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.wasm.gz",
-      "DisplayName": "GzipMarker Challenge 4.wasm",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Challenge 4.wasm.gz_tnfx.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/Challenge 4.wasm.gz_tnfx.info",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.wasm.gz"
-      ],
-      "ToBuildDependencies": [
-        295,
-        296
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 297
+      "DebugActionIndex": 293
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -13673,7 +13585,7 @@
       "ToBuildDependencies": [
         4
       ],
-      "DebugActionIndex": 298
+      "DebugActionIndex": 294
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -13688,20 +13600,20 @@
       "ToBuildDependencies": [
         5
       ],
-      "DebugActionIndex": 299
+      "DebugActionIndex": 295
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
       "DisplayName": "Writing webgl.data_qnm2.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 168549,
+      "PayloadOffset": 167345,
       "PayloadLength": 1956,
       "PayloadDebugContentSnippet": "{\"System.Collections.Generic.D",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
-      "DebugActionIndex": 300
+      "DebugActionIndex": 296
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -13727,73 +13639,32 @@
       "ToBuildDependencies": [
         2,
         5,
-        300
+        296
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 301
+      "DebugActionIndex": 297
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "DisplayName": "7z webgl.data",
-      "Action": "cd \"C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Challenge4-B00156239/Challenge 4/Library/Bee/artifacts/WebGL\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/7z.exe\" a -tgzip \"C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Challenge4-B00156239/Challenge 4/Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"webgl.data\"",
+      "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.data",
+      "DisplayName": "Copying Challenge 4.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/7z.exe"
+        "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.data"
       ],
       "ToBuildDependencies": [
-        301
+        297
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 302
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/Challenge 4.data.gz_bi19.info",
-      "DisplayName": "Writing Challenge 4.data.gz_bi19.info",
-      "ActionType": "WriteFile",
-      "PayloadOffset": 170602,
-      "PayloadLength": 470,
-      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/Challenge 4.data.gz_bi19.info"
-      ],
-      "DebugActionIndex": 303
-    },
-    {
-      "Annotation": "GzipMarker C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.data.gz",
-      "DisplayName": "GzipMarker Challenge 4.data",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.10f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\Challenge 4.data.gz_bi19.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/Challenge 4.data.gz_bi19.info",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.data.gz"
-      ],
-      "ToBuildDependencies": [
-        302,
-        303
-      ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 304
+      "DebugActionIndex": 298
     },
     {
       "Annotation": "PreprocessJS C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.loader.js",
       "DisplayName": "PreprocessJS Challenge 4.loader",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Challenge 4'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Challenge 4.data.gz'\" \"FRAMEWORK_FILENAME='Challenge 4.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Challenge 4.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Challenge 4.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/Fergal/Desktop/Unity Projects/Challenge 4/Build/Challenge 4.loader.js'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Challenge 4'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Challenge 4.data'\" \"FRAMEWORK_FILENAME='Challenge 4.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Challenge 4.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Challenge 4.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -13802,12 +13673,12 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 305
+      "DebugActionIndex": 299
     },
     {
       "Annotation": "PreprocessJS C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/index.html",
       "DisplayName": "PreprocessJS index",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/Fergal/Desktop/Unity Projects/Challenge 4/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Challenge 4'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Challenge 4.data.gz'\" \"FRAMEWORK_FILENAME='Challenge 4.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Challenge 4.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Challenge 4.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/Fergal/Desktop/Unity Projects/Challenge 4/index.html'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Challenge 4'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Challenge 4.data'\" \"FRAMEWORK_FILENAME='Challenge 4.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Challenge 4.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Challenge 4.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -13816,7 +13687,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 306
+      "DebugActionIndex": 300
     },
     {
       "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/favicon.ico",
@@ -13828,7 +13699,7 @@
       "Outputs": [
         "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 307
+      "DebugActionIndex": 301
     },
     {
       "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/fullscreen-button.png",
@@ -13840,7 +13711,7 @@
       "Outputs": [
         "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 308
+      "DebugActionIndex": 302
     },
     {
       "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/MemoryProfiler.png",
@@ -13852,7 +13723,7 @@
       "Outputs": [
         "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/MemoryProfiler.png"
       ],
-      "DebugActionIndex": 309
+      "DebugActionIndex": 303
     },
     {
       "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/progress-bar-empty-dark.png",
@@ -13864,7 +13735,7 @@
       "Outputs": [
         "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 310
+      "DebugActionIndex": 304
     },
     {
       "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/progress-bar-empty-light.png",
@@ -13876,7 +13747,7 @@
       "Outputs": [
         "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 311
+      "DebugActionIndex": 305
     },
     {
       "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/progress-bar-full-dark.png",
@@ -13888,7 +13759,7 @@
       "Outputs": [
         "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 312
+      "DebugActionIndex": 306
     },
     {
       "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/progress-bar-full-light.png",
@@ -13900,12 +13771,12 @@
       "Outputs": [
         "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 313
+      "DebugActionIndex": 307
     },
     {
       "Annotation": "PreprocessJS C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/style.css",
       "DisplayName": "PreprocessJS style",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Challenge 4'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Challenge 4.data.gz'\" \"FRAMEWORK_FILENAME='Challenge 4.framework.js.gz'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Challenge 4.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Challenge 4.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/style.css'\"  \"locals.webglIncludes='C\\x3a/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/WebGLIncludes'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='DefaultCompany'\" \"PRODUCT_NAME='Challenge 4'\" \"PRODUCT_VERSION='0.1'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23231F20'\" \"DATA_FILENAME='Challenge 4.data'\" \"FRAMEWORK_FILENAME='Challenge 4.framework.js'\" \"WORKER_FILENAME=''\" \"CODE_FILENAME='Challenge 4.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=false\" \"USE_WEBGL_2_0=true\" \"WEBGL_POWER_PREFERENCE=2\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2022.3.10f1'\" \"SHOW_DIAGNOSTICS=false\" \"CLOSE_ON_QUIT=false\" \"LOADER_FILENAME='Challenge 4.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -13914,7 +13785,7 @@
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 314
+      "DebugActionIndex": 308
     },
     {
       "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/unity-logo-dark.png",
@@ -13926,7 +13797,7 @@
       "Outputs": [
         "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 315
+      "DebugActionIndex": 309
     },
     {
       "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/unity-logo-light.png",
@@ -13938,7 +13809,7 @@
       "Outputs": [
         "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 316
+      "DebugActionIndex": 310
     },
     {
       "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/webgl-logo.png",
@@ -13950,7 +13821,7 @@
       "Outputs": [
         "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 317
+      "DebugActionIndex": 311
     },
     {
       "Annotation": "CopyFiles C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/webmemd-icon.png",
@@ -13962,7 +13833,7 @@
       "Outputs": [
         "C:/Users/Fergal/Desktop/Unity Projects/Challenge 4/TemplateData/webmemd-icon.png"
       ],
-      "DebugActionIndex": 318
+      "DebugActionIndex": 312
     },
     {
       "Annotation": "Player",
@@ -13972,10 +13843,16 @@
       "ToBuildDependencies": [
         4,
         285,
+        292,
+        293,
         294,
-        297,
+        295,
         298,
         299,
+        300,
+        301,
+        302,
+        303,
         304,
         305,
         306,
@@ -13984,16 +13861,10 @@
         309,
         310,
         311,
-        312,
-        313,
-        314,
-        315,
-        316,
-        317,
-        318
+        312
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 319
+      "DebugActionIndex": 313
     }
   ],
   "FileSignatures": [
@@ -14361,7 +14232,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 319
+          "Player": 313
         }
 ,  "DefaultNodes": [
     0
