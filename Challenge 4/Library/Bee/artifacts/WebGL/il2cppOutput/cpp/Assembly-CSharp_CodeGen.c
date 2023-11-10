@@ -1,0 +1,152 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void EnemyX_Start_m344B6AABB07BCD8BD45B6365348CEE876A76EB3A (void);
+extern void EnemyX_Update_mE2F7221B3009D66CF995F2AC41ABBB285B328290 (void);
+extern void EnemyX_OnCollisionEnter_mEAAF0CACB97A3F477582034B3EAD401F8D30C94A (void);
+extern void EnemyX__ctor_mB20BA4CA51958C20D82960C349538202EB01DECA (void);
+extern void PlayerControllerX_Start_m5BAE410291E1DABAC99D3F233D14AF0AA072A606 (void);
+extern void PlayerControllerX_Update_mE690DFA5B4D44A839AC48EC903E382790B5CCC8B (void);
+extern void PlayerControllerX_Moveforward_m82B282C6CE95DF593023A06A66519A560AEC0209 (void);
+extern void PlayerControllerX_TurboCoolDown_m781D4887C98FB1E3D7B7C7D81E9B9E558D41046D (void);
+extern void PlayerControllerX_OnTriggerEnter_m3CF3B3203B081E6F6C5371B913DCD5FCBD1C0780 (void);
+extern void PlayerControllerX_PowerupCooldown_mCA4B4C0BE6E27C8DFA5DE4E95737DCA5DE3DA7BC (void);
+extern void PlayerControllerX_OnCollisionEnter_m35E6B0ED27CD27A2652507073E9CD8965D19E32D (void);
+extern void PlayerControllerX__ctor_m3FFA731641AD6FA1CE627820042B7587E98D535A (void);
+extern void U3CPowerupCooldownU3Ed__18__ctor_mB7846B85134E7ABDEACA010AEA87260196009470 (void);
+extern void U3CPowerupCooldownU3Ed__18_System_IDisposable_Dispose_m194B1C875E79B2BEC80439732A7ECD1958AD5DBA (void);
+extern void U3CPowerupCooldownU3Ed__18_MoveNext_m5926638FFEDF3C55AB944F417A6997ADF2F9A995 (void);
+extern void U3CPowerupCooldownU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m10685F8F0553AC3DD79D3FACAA65535B5EBF2120 (void);
+extern void U3CPowerupCooldownU3Ed__18_System_Collections_IEnumerator_Reset_m34FC07D2D9AA05E59D5C029A970E5191C4E6067D (void);
+extern void U3CPowerupCooldownU3Ed__18_System_Collections_IEnumerator_get_Current_m8A4E6BB036AEA5BC6061EB847FF9ED2CCB6BAE24 (void);
+extern void U3CTurboCoolDownU3Ed__16__ctor_mC32C578FA51918B84D4E5529877DE50D694098AC (void);
+extern void U3CTurboCoolDownU3Ed__16_System_IDisposable_Dispose_m7863F55F7B522F3BBFCD179258F0DF4A63031BC4 (void);
+extern void U3CTurboCoolDownU3Ed__16_MoveNext_mDE4B3C83EAB4FB811B059E5A78536A0B9A89FC89 (void);
+extern void U3CTurboCoolDownU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD884369D81B6727FB99F423FFDAE378232EF7398 (void);
+extern void U3CTurboCoolDownU3Ed__16_System_Collections_IEnumerator_Reset_m3EC5D81438C3F7C4CEB34EA7247DB8AA51BDD2B0 (void);
+extern void U3CTurboCoolDownU3Ed__16_System_Collections_IEnumerator_get_Current_m4DECBA3E0A0F711A5CA8336011045B040D0D9E92 (void);
+extern void U3CTurboCoolDownU3Ed__16_System_Collections_Generic_IEnumerableU3CSystem_ObjectU3E_GetEnumerator_mEE5BB1674C93D2565E8A10C17CA7069A149E9641 (void);
+extern void U3CTurboCoolDownU3Ed__16_System_Collections_IEnumerable_GetEnumerator_mA73E883F397184353BFF6636E34006C299B1916C (void);
+extern void RotateCameraX_Update_mDEB2FEBD64480EB28EAE47E3A680F37F79F0AF09 (void);
+extern void RotateCameraX__ctor_m370F5E3DC01EC0C36A8CCD1C8151B1FD76536AD3 (void);
+extern void SpawnManagerX_Start_mF974670676EF98526100450B651ABED6529E8FD0 (void);
+extern void SpawnManagerX_Update_mCB247E2DB1AD8C98E5B2E329FC986FCC0F204A65 (void);
+extern void SpawnManagerX_GenerateSpawnPosition_m34B2D95CDA89A9C79434E6F2B2EF41D3BBDE1FB7 (void);
+extern void SpawnManagerX_SpawnEnemyWave_mDD0349D87F15A63A4C43AF964086566F26B40097 (void);
+extern void SpawnManagerX_ResetPlayerPosition_m9AA2D8260FA13947D7C27217C2B9E19D173840B2 (void);
+extern void SpawnManagerX__ctor_m967D2E81B63EF3B6BCA2C206459FFAB7EBFFE60E (void);
+extern void SpawnManagerX__cctor_m17EF8FE19B5134D723606C7CACC07C1001C99156 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[37] = 
+{
+	EnemyX_Start_m344B6AABB07BCD8BD45B6365348CEE876A76EB3A,
+	EnemyX_Update_mE2F7221B3009D66CF995F2AC41ABBB285B328290,
+	EnemyX_OnCollisionEnter_mEAAF0CACB97A3F477582034B3EAD401F8D30C94A,
+	EnemyX__ctor_mB20BA4CA51958C20D82960C349538202EB01DECA,
+	PlayerControllerX_Start_m5BAE410291E1DABAC99D3F233D14AF0AA072A606,
+	PlayerControllerX_Update_mE690DFA5B4D44A839AC48EC903E382790B5CCC8B,
+	PlayerControllerX_Moveforward_m82B282C6CE95DF593023A06A66519A560AEC0209,
+	PlayerControllerX_TurboCoolDown_m781D4887C98FB1E3D7B7C7D81E9B9E558D41046D,
+	PlayerControllerX_OnTriggerEnter_m3CF3B3203B081E6F6C5371B913DCD5FCBD1C0780,
+	PlayerControllerX_PowerupCooldown_mCA4B4C0BE6E27C8DFA5DE4E95737DCA5DE3DA7BC,
+	PlayerControllerX_OnCollisionEnter_m35E6B0ED27CD27A2652507073E9CD8965D19E32D,
+	PlayerControllerX__ctor_m3FFA731641AD6FA1CE627820042B7587E98D535A,
+	U3CPowerupCooldownU3Ed__18__ctor_mB7846B85134E7ABDEACA010AEA87260196009470,
+	U3CPowerupCooldownU3Ed__18_System_IDisposable_Dispose_m194B1C875E79B2BEC80439732A7ECD1958AD5DBA,
+	U3CPowerupCooldownU3Ed__18_MoveNext_m5926638FFEDF3C55AB944F417A6997ADF2F9A995,
+	U3CPowerupCooldownU3Ed__18_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m10685F8F0553AC3DD79D3FACAA65535B5EBF2120,
+	U3CPowerupCooldownU3Ed__18_System_Collections_IEnumerator_Reset_m34FC07D2D9AA05E59D5C029A970E5191C4E6067D,
+	U3CPowerupCooldownU3Ed__18_System_Collections_IEnumerator_get_Current_m8A4E6BB036AEA5BC6061EB847FF9ED2CCB6BAE24,
+	U3CTurboCoolDownU3Ed__16__ctor_mC32C578FA51918B84D4E5529877DE50D694098AC,
+	U3CTurboCoolDownU3Ed__16_System_IDisposable_Dispose_m7863F55F7B522F3BBFCD179258F0DF4A63031BC4,
+	U3CTurboCoolDownU3Ed__16_MoveNext_mDE4B3C83EAB4FB811B059E5A78536A0B9A89FC89,
+	U3CTurboCoolDownU3Ed__16_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mD884369D81B6727FB99F423FFDAE378232EF7398,
+	U3CTurboCoolDownU3Ed__16_System_Collections_IEnumerator_Reset_m3EC5D81438C3F7C4CEB34EA7247DB8AA51BDD2B0,
+	U3CTurboCoolDownU3Ed__16_System_Collections_IEnumerator_get_Current_m4DECBA3E0A0F711A5CA8336011045B040D0D9E92,
+	U3CTurboCoolDownU3Ed__16_System_Collections_Generic_IEnumerableU3CSystem_ObjectU3E_GetEnumerator_mEE5BB1674C93D2565E8A10C17CA7069A149E9641,
+	U3CTurboCoolDownU3Ed__16_System_Collections_IEnumerable_GetEnumerator_mA73E883F397184353BFF6636E34006C299B1916C,
+	RotateCameraX_Update_mDEB2FEBD64480EB28EAE47E3A680F37F79F0AF09,
+	RotateCameraX__ctor_m370F5E3DC01EC0C36A8CCD1C8151B1FD76536AD3,
+	SpawnManagerX_Start_mF974670676EF98526100450B651ABED6529E8FD0,
+	SpawnManagerX_Update_mCB247E2DB1AD8C98E5B2E329FC986FCC0F204A65,
+	SpawnManagerX_GenerateSpawnPosition_m34B2D95CDA89A9C79434E6F2B2EF41D3BBDE1FB7,
+	SpawnManagerX_SpawnEnemyWave_mDD0349D87F15A63A4C43AF964086566F26B40097,
+	SpawnManagerX_ResetPlayerPosition_m9AA2D8260FA13947D7C27217C2B9E19D173840B2,
+	SpawnManagerX__ctor_m967D2E81B63EF3B6BCA2C206459FFAB7EBFFE60E,
+	SpawnManagerX__cctor_m17EF8FE19B5134D723606C7CACC07C1001C99156,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[37] = 
+{
+	1119,
+	1119,
+	946,
+	1119,
+	1119,
+	1119,
+	1119,
+	1091,
+	946,
+	1091,
+	946,
+	1119,
+	937,
+	1119,
+	1065,
+	1091,
+	1119,
+	1091,
+	937,
+	1119,
+	1065,
+	1091,
+	1119,
+	1091,
+	1091,
+	1091,
+	1119,
+	1119,
+	1119,
+	1119,
+	1117,
+	937,
+	1119,
+	1119,
+	2155,
+	2158,
+	1119,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	37,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
